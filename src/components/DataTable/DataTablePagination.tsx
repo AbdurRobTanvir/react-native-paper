@@ -203,7 +203,8 @@ const PaginationDropdown = ({
       theme={theme}
       anchor={
         <Button
-          mode="outlined"
+          //mode="outlined"
+          textColor="#000000"
           onPress={() => toggleSelect(true)}
           style={styles.button}
           icon="menu-down"
@@ -383,7 +384,7 @@ const styles = StyleSheet.create({
   optionsContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginVertical: 6,
+    //marginVertical: 6,
   },
   label: {
     fontSize: 12,
